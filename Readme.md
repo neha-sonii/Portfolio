@@ -7,3 +7,8 @@ This project includes the following features: <br>
 **Responsive Design**: Optimized for different screen sizes. <br>
 **Interactive Element** : Engaging user interaction. <br>
 **Project Showcase**: Highlight my best work. <br>
+
+ # Technologies
+ This project is built using the following technologies: <br>
+ **HTML**: Markup languages for creating web pages. <br>
+ **CSS**: Styling language for designing web pages <br>

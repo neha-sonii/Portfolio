@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Sacramento&display=swap");
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Oranienbaum&display=swap");
@@ -48,8 +47,7 @@
   box-shadow: 5px 5px 19px 3px #a380c3;
   background-color: #d4bee4;
 }
-=======
-      @import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+      /* @import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
       @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Oranienbaum&display=swap');
 
@@ -85,94 +83,83 @@
       .about2 {
         box-shadow: 5px 5px 19px 3px #a380c3;
         background-color: #D4BEE4;
-      }
->>>>>>> dd0b68daa7d75fc67f0d2739d3089d1b569091a3
-/* 
-      .project {
-        margin: 20px;
       } */
-
-<<<<<<< HEAD
-.project1 {
-  font-family: "Domine", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.project-name {
-  font-family: "Oranienbaum", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-weight: 500;
-}
-
-.row1 {
-  background-color: #d4bee4;
-}
-.gap {
-  gap: 90px;
-  margin-left: 30px;
-  flex-wrap: wrap;
-}
-/* .p {
-        margin-bottom: -30px;
-      } */
-.main1 {
-  text-decoration: underline;
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
-  color: black;
-}
-.para {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.main2 {
-  outline: 7px dotted white;
-  padding: 10px;
-}
-.footer {
-  background-color: #e6dbe9;
-  box-shadow: 5px 5px 19px 3px #bbbbbb;
-}
-
-.bg-voilet {
-  background-color: #e8e8e8;
-}
-.colour {
-  color: #2b153e;
-}
-nav:hover {
-  color: plum;
-}
-
-.link {
-  color: black;
-  text-decoration: none;
-}
-.link:hover {
-  color: rgb(255, 255, 255);
-}
-
-@media Screen and (max-width: 770px) {
-  .display {
-    display: none;
-  }
-}
-@media Screen and (max-width: 430px) {
-  .hero-img {
-    width: 100%;
-  }
-}
-=======
       .project1 {
+        font-family: "Domine", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .project-name {
+        font-family: "Oranienbaum", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: 500;
+      }
+
+      .row1 {
+        background-color: #d4bee4;
+      }
+      .gap {
+        gap: 90px;
+        margin-left: 30px;
+        flex-wrap: wrap;
+      }
+      .main1 {
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        color: black;
+      }
+      .para {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .main2 {
+        outline: 7px dotted white;
+        padding: 10px;
+      }
+      .footer {
+        background-color: #e6dbe9;
+        box-shadow: 5px 5px 19px 3px #bbbbbb;
+      }
+
+      .bg-voilet {
+        background-color: #e8e8e8;
+      }
+      .colour {
+        color: #2b153e;
+      }
+      nav:hover {
+        color: plum;
+      }
+
+      .link {
+        color: black;
+        text-decoration: none;
+      }
+      .link:hover {
+        color: rgb(255, 255, 255);
+      }
+
+      @media Screen and (max-width: 770px) {
+        .display {
+          display: none;
+        }
+      }
+      @media Screen and (max-width: 430px) {
+        .hero-img {
+          width: 100%;
+        }
+}
+      /* .project1 {
         font-family: "Domine", serif;
         font-optical-sizing: auto;
         font-style: normal;
@@ -199,7 +186,7 @@ nav:hover {
       /* .p {
         margin-bottom: -30px;
       } */
-      .main1 {
+      /* .main1 {
         text-decoration: underline;
         display: flex;
         justify-content: center;
@@ -240,5 +227,4 @@ nav:hover {
        }
        .link:hover {
         color: rgb(255, 255, 255);
-       }
->>>>>>> dd0b68daa7d75fc67f0d2739d3089d1b569091a3
+       } */

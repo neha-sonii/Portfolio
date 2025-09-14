@@ -8,6 +8,18 @@
   padding: 10px 0;
 }
 
+.section {
+  transition: transform 1s ease, opacity 1s ease;
+  opacity: 0;
+  transform: translateY(100px); /* hidden state */
+}
+
+.section.show {
+  opacity: 1;
+  transform: translateY(0); /* slide up */
+}
+
+
 .name {
   font-family: "Lily Script One", system-ui;
   font-weight: 400;
@@ -17,6 +29,7 @@
 .color {
   color: #eeeeee;
 }
+
 .body {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
@@ -24,9 +37,28 @@
   font-variation-settings: "wdth" 100;
 }
 
+.left-slide {
+  position: relative;
+  left: -800px;
+  opacity: 0;
+}
+.right-slide {
+  position: relative;
+  right: -800px;
+  opacity: 0;
+}
+
+.slideUp {
+  position: relative;
+  top: -200px;
+  opacity: 0;
+  margin-top: 10px;
+}
+
 .color1 {
   color: #2b153e;
 }
+
 
 .btn {
   border: 2px solid black;
@@ -47,43 +79,17 @@
   box-shadow: 5px 5px 19px 3px #a380c3;
   background-color: #d4bee4;
 }
-      /* @import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
-      @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Oranienbaum&display=swap');
 
-      .bg {
-        background: linear-gradient(#fff, #70517d, #2b153e);
-        padding: 10px 0;
-      }
+/* skill section  */
+.skill {
+  background-color: #cbb0e9;
+  box-shadow: 5px 5px 19px 3px #b293cc;
+}
 
-      .name {
-        font-family: "Lily Script One", system-ui;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 95px;
-      }
-      .color {
-        color: #eeeeee;
-      }
-      .body {
-        font-family: "Saira", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        font-variation-settings: "wdth" 100;
-      }
+.font-size {
+  font-size: 30px;
+}
 
-      .color1 {
-        color: #2b153e;
-      }
-      
-    .about {
-          background-color: #9B7EBD;
-          box-shadow: 5px 5px 19px 3px #7e51a5;
-      }
-      .about2 {
-        box-shadow: 5px 5px 19px 3px #a380c3;
-        background-color: #D4BEE4;
-      } */
       .project1 {
         font-family: "Domine", serif;
         font-optical-sizing: auto;
@@ -159,72 +165,4 @@
           width: 100%;
         }
 }
-      /* .project1 {
-        font-family: "Domine", serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-      }
-
-      .project-name {
-        font-family: "Oranienbaum", serif;
-        font-weight: 400;
-        font-style: normal;
-        font-weight: 500;
-      }
-
-      .row1 {
-        background-color: #D4BEE4;
-      }
-      .gap {
-        gap: 90px;
-        margin-left: 30px;
-        flex-wrap: wrap;
-      }
-      /* .p {
-        margin-bottom: -30px;
-      } */
-      /* .main1 {
-        text-decoration: underline;
-        display: flex;
-        justify-content: center;
-        font-size: 18px;
-        color: black;
-      }
-      .para {
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-        flex-direction: column;
-        flex-wrap: wrap;
-      }
-      .main2 {
-        outline: 7px dotted white;
-        padding: 10px;
-      }
-      .footer {
-        background-color: #e6dbe9;
-        box-shadow: 5px 5px 19px 3px #bbbbbb;
-        
-      }
       
-       .bg-voilet {
-        background-color: #e8e8e8;
-
-      }
-      .colour {
-         color: #2b153e;
-       }
-       nav:hover {
-        color: plum;
-       }
-
-       .link {
-        color: black;
-        text-decoration: none;
-       }
-       .link:hover {
-        color: rgb(255, 255, 255);
-       } */
